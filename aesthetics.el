@@ -19,3 +19,4 @@
   (setq web-mode-indent-style 2)
   )
 (add-hook 'web-mode-hook  'my-web-mode-hook)
+(evil-set-initial-state 'term-mode 'normal)
