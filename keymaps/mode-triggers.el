@@ -5,3 +5,7 @@
   :states 'normal
   "e" 'eshell
   )
+(mode-switcher
+  :states 'normal
+  "n"  'neotree-toggle
+  )
