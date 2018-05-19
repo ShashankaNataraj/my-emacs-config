@@ -20,3 +20,6 @@
   )
 (add-hook 'web-mode-hook  'my-web-mode-hook)
 (evil-set-initial-state 'term-mode 'normal)
+
+(setq neo-theme (if (display-graphic-p) 'icons 'arrow))
+(require 'all-the-icons)

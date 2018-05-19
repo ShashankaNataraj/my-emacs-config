@@ -1,6 +1,7 @@
+(require 'evil-magit)
 (general-create-definer git-keymap
   :prefix "SPC g")
-(mode-switcher
+(git-keymap
   :states 'normal
   "s" 'magit-status
   )
