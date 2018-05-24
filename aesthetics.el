@@ -1,3 +1,5 @@
+;; Enable company mode on all buffers on startup
+(add-hook 'after-init-hook 'global-company-mode)
 
 ;; Disable the menu bar permanently and other distracting things within the editor
 (menu-bar-mode -1)
@@ -24,4 +26,5 @@
 (setq neo-theme (if (display-graphic-p) 'icons 'arrow))
 (require 'all-the-icons)
 
-(setq dashboard-startup-banner "/users/shasn/Downloads/SkyrimLogo.jpg")
+;; Set the dashboard startup banner
+(setq dashboard-startup-banner "~/Downloads/itachi.png")
