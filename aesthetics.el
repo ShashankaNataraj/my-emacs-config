@@ -28,3 +28,8 @@
 
 ;; Set the dashboard startup banner
 (setq dashboard-startup-banner "~/Downloads/itachi.png")
+
+;; Helm projectile configs
+(setq helm-projectile-fuzzy-match t)
+(require 'helm-projectile)
+(helm-projectile-on)

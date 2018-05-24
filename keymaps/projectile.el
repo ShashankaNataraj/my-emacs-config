@@ -1,7 +1,3 @@
-(setq helm-projectile-fuzzy-match t)
-(require 'helm-projectile)
-(helm-projectile-on)
-
 (general-create-definer mode-switcher
   :prefix "SPC p f")
 (mode-switcher

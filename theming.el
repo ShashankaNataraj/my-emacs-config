@@ -17,4 +17,4 @@
 ;; Corrects (and improves) org-mode's native fontification.
 (doom-themes-org-config)
 
-(defvar dashboard-banner-logo-title "Keep calm and Fus Ro Dah!")
+(defvar dashboard-banner-logo-title "If not you, then who? If not now, then when?")
