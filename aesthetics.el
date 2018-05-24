@@ -23,3 +23,5 @@
 
 (setq neo-theme (if (display-graphic-p) 'icons 'arrow))
 (require 'all-the-icons)
+
+(setq dashboard-startup-banner "/users/shasn/Downloads/SkyrimLogo.jpg")
