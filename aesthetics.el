@@ -33,3 +33,6 @@
 (setq helm-projectile-fuzzy-match t)
 (require 'helm-projectile)
 (helm-projectile-on)
+
+;; Always start maximized
+(add-to-list 'default-frame-alist '(fullscreen . maximized))
