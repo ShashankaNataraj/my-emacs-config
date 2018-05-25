@@ -10,7 +10,7 @@
 (setq-default truncate-lines t)
 
 ;; Line height to make code look better
-(setq-default line-spacing 7)
+(setq-default line-spacing 3)
 
 ;; Register all js files with rjsx mode
 (add-to-list 'auto-mode-alist '(".*\.js\'" . rjsx-mode))
@@ -43,3 +43,14 @@
 ;; Dimmer mode enable
 (dimmer-mode)
 (setq dimmer-fraction 0.5)
+
+;; show relative line numbers
+(require 'linum-relative)
+(linum-relative-mode t)
+(linum-on)
+(linum-relative-on)
+(global-linum-mode 1)
+
+;; Smart paranthesis
+(require 'smartparens-config)
+(add-hook 'js-mode-hook #'smartparens-mode)
