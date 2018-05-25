@@ -9,3 +9,7 @@
   :states 'normal
   "n"  'neotree-toggle
   )
+(mode-switcher
+  :states 'normal
+  "j" 'dumb-jump-go
+  )

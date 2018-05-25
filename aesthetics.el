@@ -36,3 +36,10 @@
 
 ;; Always start maximized
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
+
+;; Beacon mode enable
+(beacon-mode 1)
+
+;; Dimmer mode enable
+(dimmer-mode)
+(setq dimmer-fraction 0.5)
