@@ -14,13 +14,7 @@
 
 ;; Register all js files with rjsx mode
 (add-to-list 'auto-mode-alist '(".*\.js\'" . rjsx-mode))
-(defun my-web-mode-hook ()
-  (setq web-mode-markup-indent-offset 2)
-  (setq web-mode-css-indent-offset 2)
-  (setq web-mode-code-indent-offset 2)
-  (setq web-mode-indent-style 2)
-  )
-(add-hook 'web-mode-hook  'my-web-mode-hook)
+
 (evil-set-initial-state 'term-mode 'normal)
 
 (setq neo-theme (if (display-graphic-p) 'icons 'arrow))
@@ -54,3 +48,6 @@
 ;; Smart paranthesis
 (require 'smartparens-config)
 (add-hook 'js-mode-hook #'smartparens-mode)
+;; enable editor config
+(require 'editorconfig)
+(editorconfig-mode 1)
