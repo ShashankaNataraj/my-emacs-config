@@ -38,16 +38,11 @@
 (dimmer-mode)
 (setq dimmer-fraction 0.5)
 
-;; show relative line numbers
-(require 'linum-relative)
-(linum-relative-mode t)
-(linum-on)
-(linum-relative-on)
-(global-linum-mode 1)
-
 ;; Smart paranthesis
 (require 'smartparens-config)
 (add-hook 'js-mode-hook #'smartparens-mode)
 ;; enable editor config
 (require 'editorconfig)
 (editorconfig-mode 1)
+
+(fringe-mode '(0 . 0))

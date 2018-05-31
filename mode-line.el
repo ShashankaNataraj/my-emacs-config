@@ -1,3 +1,2 @@
-(setq sml/theme 'dark)
-(setq sml/no-confirm-load-theme t)
-(sml/setup)
+(require 'telephone-line)
+(telephone-line-mode 1)
