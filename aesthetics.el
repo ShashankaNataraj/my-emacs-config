@@ -35,8 +35,8 @@
 (beacon-mode 1)
 
 ;; Dimmer mode enable
-(dimmer-mode)
-(setq dimmer-fraction 0.5)
+;;(dimmer-mode)
+;; (setq dimmer-fraction 0.5)
 
 ;; Smart paranthesis
 (require 'smartparens-config)

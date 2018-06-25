@@ -14,3 +14,9 @@
   :states 'normal
   "p" 'helm-projectile-switch-project
   )
+
+
+(mode-switcher
+  :states 'normal
+  "s" 'ag-project
+  )
