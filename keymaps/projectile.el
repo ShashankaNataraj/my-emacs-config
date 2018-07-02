@@ -18,5 +18,5 @@
 
 (mode-switcher
   :states 'normal
-  "s" 'ag-project
+  "s" 'helm-ag-project-root
   )
