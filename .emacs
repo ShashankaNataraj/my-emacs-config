@@ -35,6 +35,7 @@
     (add-to-list 'package-archives '("gnu" . (concat proto "://elpa.gnu.org/packages/")))))
 (package-initialize)
 (load "~/.emacs.d/config/magit.el")
+(load "~/.emacs.d/config/yasnippet.el")
 (load "~/.emacs.d/config/keymaps/windows.el")
 (load "~/.emacs.d/config/theming.el")
 (load "~/.emacs.d/config/package-config.el")

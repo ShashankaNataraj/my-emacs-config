@@ -46,3 +46,9 @@
 (editorconfig-mode 1)
 
 (fringe-mode '(0 . 0))
+
+(set-face-attribute 'default nil
+                    :family "IBM Plex Mono"
+                    :height 130
+                    :weight 'normal
+                    :width 'normal)
