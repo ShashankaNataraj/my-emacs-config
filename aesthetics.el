@@ -31,16 +31,14 @@
 ;; Always start maximized
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
 
-;; Beacon mode enable
-(beacon-mode 1)
-
-;; Dimmer mode enable
-;;(dimmer-mode)
-;; (setq dimmer-fraction 0.5)
-
 ;; Smart paranthesis
 (require 'smartparens-config)
 (add-hook 'js-mode-hook #'smartparens-mode)
+
+;; Show matching paranthesis in the editor
+(setq show-paren-delay 0)
+(show-paren-mode 1)
+
 ;; enable editor config
 (require 'editorconfig)
 (editorconfig-mode 1)
